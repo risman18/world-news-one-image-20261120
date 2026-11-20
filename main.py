@@ -5,7 +5,6 @@ Deterministic, stdlib only: copies the pre-rendered entry.png held in this
 repository to /output/entry.png. No network, no clock, no randomness.
 """
 import os
-import shutil
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
